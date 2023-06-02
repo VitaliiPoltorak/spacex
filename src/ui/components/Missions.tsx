@@ -17,7 +17,7 @@ export const Missions = ({data}: LayoutProps) => {
     console.log(data)
 
     return <main className={`bg-[#000200] w-full h-full`}>
-        <div>
+        <div className={'sticky top-[0px]'}>
             <Row className={`justify-between h-max`}>
                 <Col
                     className={`relative flex text-center flex-col items-center justify-center mx-6 my-10 w-[46%] rounded-3xl bg-[#DAE7FF] h-[340px]`}>
